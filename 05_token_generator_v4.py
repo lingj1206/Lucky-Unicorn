@@ -2,11 +2,11 @@ import random
 
 # main routine goes here
 
-STARTING_BALANCE = 100
+STARTING_BALANCE = 10
 
 balance = STARTING_BALANCE
 # testing loop to generate 20 tokens
-for item in range(0, 500):
+for item in range(0, 5):
     chosen_num = random.randint(1, 100)
 
     # Adjust balance
@@ -24,6 +24,8 @@ for item in range(0, 500):
             chosen = "zebra"
         balance -= 0.5
 
-print()
-print(f"Starting Balance: ${STARTING_BALANCE}")
-print(f"Final Balance: ${balance}")
+    print()
+    print(f"Starting Balance: ${STARTING_BALANCE}")
+    print(chosen)
+    print(balance)
+    print(f"Final Balance: ${balance}")

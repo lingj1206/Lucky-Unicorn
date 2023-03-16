@@ -1,5 +1,5 @@
 # get balance for testing purposes
-balance = 100
+balance = 5
 
 rounds_played = 0
 
